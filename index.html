@@ -27,15 +27,15 @@
 </style>
 </head>
 <body>
-    <header class="max-w-[1170px] w-full  mx-auto">
-        <nav class="flex my-[60px] sm:w-full  justify-around items-center">
+     <header class="max-w-[1170px] w-full  mx-auto px-4">
+        <nav class="flex flex-col lg:flex-row py-8 gap-6    justify-between items-center">
            <div class="flex "> <img class="w-11 h-11 mr-4" src="./images/business.png" alt="">
             <h4 class="text-[2.3rem] font-bold">Justice</h4></div>
-            <div class=" sm:w-[425px]">
+            <div class=" ">
 
-                <ul class="flex items-center text-[#707070]">
+                <ul class="flex flex-wrap justify-center gap-6  text-[#707070]">
                     <li class="poppins mr-[30px]">Home</li>
-                    <li class="poppins flex items-center mr-[30px]">Cases<i class="fa-solid fa-angle-right"></i></li>
+                    <li class="poppins flex items-center mr-[30px]">Cases  <i class="fa-solid fa-angle-right"></i></li>
                     <li class="poppins flex items-center mr-[30px]">Services<i class="fa-solid fa-angle-right"></i></li>
                     <li class="poppins flex items-center mr-[30px]">Blog<i class="fa-solid fa-angle-right"></i></li>
                     <li class="poppins flex whitespace-nowrap items-center ">Contact Us<i class="fa-solid fa-angle-right"></i></li>
@@ -45,7 +45,8 @@
             <button class="text-[18px] font-semibold text-white bg-[#B68C5A] py-[18px] px-[29px] rounded-lg">Free Consultation</button>
         </nav>
        
-    </header>
+    </header> 
+ 
     <main>
          <section class="max-w-[1170px]  mx-auto">
             <div class="bg-[url('/images/banner.png')]   w-full bg-center  text-white h-[550px] bg-cover">
@@ -57,54 +58,76 @@
             </div>
 
         </section>
+        <!-- grid section   -->
          <section class="max-w-[1170px] mx-auto">
             <!-- heading  -->
             <div class="max-w-[650px] mx-auto text-center my-16">
                 <h2 class="font-extrabold text-[2.5rem] mb-3.5">The Legal Practice Area</h2>
-                <p class="text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <p class="poppins text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <!-- grid  -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-6">
+                <!-- card 01 -->
                 <div class="flex flex-col border-r border-b border-gray-200 items-center text-center p-16 justify-center ">
                     <img class="w-[70px] h-[70px] mb-8" src="images/business.png" alt="">
                     <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
-                <div class="">
-                    <img class="w-[70px] h-[70px]" src="images/business.png" alt="">
-                    <h3 class="font-extrabold text-[2rem]">Business Law</h3>
+                <!-- card 02 -->
+                <div class="flex flex-col border-r border-b justify-center items-center text-center border-gray-200 p-16  bg-gradient-to-b from-gray-100 to-white">
+                    <img class="w-[70px] h-[70px] mb-8" src="images/criminal.png" alt="">
+                    <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
-                <div class="">
-                    <img class="w-[70px] h-[70px]" src="images/business.png" alt="">
-                    <h3 class="font-extrabold text-[2rem]">Business Law</h3>
+                <!-- card 03 -->
+                <div class="flex flex-col border-b border-gray-200 items-center text-center p-16 justify-center">
+                    <img class="w-[70px] h-[70px] mb-8" src="images/child.png" alt="">
+                    <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
-                <div class="">
-                    <img class="w-[70px] h-[70px]" src="images/business.png" alt="">
-                    <h3 class="font-extrabold text-[2rem]">Business Law</h3>
+                  <!-- card 04 -->
+                <div class="flex flex-col  border-r border-gray-200 items-center text-center p-16 justify-center">
+                    <img class="w-[70px] h-[70px] mb-8" src="images/education.png" alt="">
+                    <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
-                <div class="">
-                    <img class="w-[70px] h-[70px]" src="images/business.png" alt="">
-                    <h3 class="font-extrabold text-[2rem]">Business Law</h3>
+                <!-- card 05 -->
+                <div class="flex flex-col  border-r border-gray-200 items-center text-center p-16 justify-center">
+                    <img class="w-[70px] h-[70px] mb-8" src="images/divorce.png" alt="">
+                    <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
-                <div class="">
-                    <img class="w-[70px] h-[70px]" src="images/business.png" alt="">
-                    <h3 class="font-extrabold text-[2rem]">Business Law</h3>
+                <div class="flex flex-col   border-gray-200 items-center text-center p-16 justify-center">
+                    <img class="w-[70px] h-[70px] mb-8" src="images/tax.png" alt="">
+                    <h3 class="font-extrabold text-[2rem] mb-6">Business Law</h3>
                     <p class="poppins text-[16px] text-[#707070] mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <img src="images/Frame.png" alt="">
                 </div>
             </div>
 
         </section>
-
+        <!-- second banner  -->
+         <section class="max-w-[1170px] mt-30   mx-auto">
+            <div class="max-w-[700px] mx-auto text-center">
+                <h2 class="font-extrabold text-[2.5rem]">What Our Client Say</h2>
+                <p class="poppins text-[#707070] mt-6 mb-16">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class=" bg-[url('/images/banner.png')] text-white flex relative justify-center h-[500px]">
+                <div class=" absolute inset-0 bg-black/60"></div>
+              <div class="flex  relative flex-col justify-center h-full p-15 mx-auto items-center text-center">
+                <img class="w-20 h-20 object-cover border-2 border-white rounded-full" src="images/tour.jpg" alt="">
+              <h3 class="mt-6 text-2xl font-extrabold">Awlad Hossain</h3>
+              <p>UIX Designer</p>
+              <p class="poppins mt-8 max-w-[900px]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+        </section>
+   
     </main>
     
 </body>
