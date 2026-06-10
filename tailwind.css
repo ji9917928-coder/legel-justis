@@ -205,3 +205,109 @@
     </div>
 
 </section>
+   <footer class="bg-black mt-[120px] text-white py-16 md:py-[120px]">
+
+    <div class="mx-auto max-w-[1170px] px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-16 lg:gap-20">
+
+        <!-- Logo Section -->
+        <div class="text-center md:text-left">
+
+            <div class="flex items-center justify-center md:justify-start mb-8">
+                <img class="w-11 h-11 mr-4" src="./images/business.png" alt="">
+                <h3 class="font-extrabold text-[35px]">Justice</h3>
+            </div>
+
+            <p class="poppins max-w-[260px] mx-auto md:mx-0 leading-8 text-[#CFCFCF]">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form,
+                by injected humour.
+            </p>
+
+        </div>
+
+        <!-- Useful Links -->
+        <div class="text-center md:text-left">
+
+            <h3 class="font-extrabold text-2xl mb-[47px]">
+                Useful Link
+            </h3>
+
+            <div class="space-y-4">
+                <p class="poppins text-[#CFCFCF]">Homes</p>
+                <p class="poppins text-[#CFCFCF]">About Us</p>
+                <p class="poppins text-[#CFCFCF]">Cases</p>
+                <p class="poppins text-[#CFCFCF]">Blog</p>
+                <p class="poppins text-[#CFCFCF]">Contact Us</p>
+            </div>
+
+        </div>
+
+        <!-- Contact -->
+        <div class="text-center md:text-left">
+
+            <h3 class="font-extrabold text-2xl mb-[47px]">
+                Contact Now
+            </h3>
+
+            <div class="space-y-4">
+                <div>
+                    <p class="poppins text-[#CFCFCF]">
+                        555 4th 5t NW, Washington
+                    </p>
+                    <p class="poppins text-[#CFCFCF]">
+                        DC 20530, United States
+                    </p>
+                </div>
+
+                <div>
+                    <p class="poppins text-[#CFCFCF]">
+                        +88 01750 000 000
+                    </p>
+                    <p class="poppins text-[#CFCFCF]">
+                        +88 01750 000 000
+                    </p>
+                </div>
+
+                <div>
+                    <p class="poppins text-[#CFCFCF]">
+                        info@gmail.com
+                    </p>
+                    <p class="poppins text-[#CFCFCF]">
+                        info@gmail.com
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Subscribe -->
+        <div class="text-center md:text-left">
+
+            <h3 class="font-extrabold text-2xl mb-[47px]">
+                Subscribe
+            </h3>
+
+            <p class="poppins text-[#CFCFCF] mb-6">
+                Subscribe for our latest & Articles.
+                We Won’t Give You Spam Mails
+            </p>
+
+            <div class="flex w-full max-w-[324px] mx-auto md:mx-0">
+
+                <input
+                    class="w-full poppins outline-none rounded-l-xl text-[#A0A0A0] bg-[#F3F3F3] px-6 py-5"
+                    type="email"
+                    placeholder="Email Address">
+
+                <button
+                    class="px-6 rounded-r-xl bg-[#B68C5A] text-white">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
